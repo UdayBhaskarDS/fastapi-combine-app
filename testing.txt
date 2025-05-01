@@ -1,0 +1,3 @@
+curl -X POST "http://127.0.0.1:8000/combine" \
+-F "input_string=Hello from Uday!" \
+-F "input_file=@C:/Users/Uday/Desktop/Prob.txt"
