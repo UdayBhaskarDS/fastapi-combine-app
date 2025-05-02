@@ -11,7 +11,7 @@ async def combine_text_and_file(
     file_content = await input_file.read()
     file_text = file_content.decode('utf-8')
     
-    combined_text = input_string + "\n" + file_text
+    combined_text = input_string + "Its deployed with azure,input text will be combined with File content" + "\n" + file_text
     return combined_text
 
 # from fastapi import FastAPI, UploadFile, File, Form
